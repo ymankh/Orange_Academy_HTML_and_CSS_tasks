@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image table</title>
+    <style>
+        table {
+            padding: 0;
+            border: 2px dashed black;
+            border-right: 0;
+            border-bottom: 0;
+        }
+
+        th, td{
+           border-right:  2px dashed;
+           border-bottom: 2px dashed;
+            margin: 0;
+            padding: 2px;
+        }
+        th {
+            padding: 4px 8px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Images in Table</h1>
+    <hr>
+    <h3>What are your favorite pets?</h3>
+
+    <table cellspacing="0">
+        <thead>
+            <tr>
+                <th> Pet Image</th>
+                <th> More Facts about (as a Link)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><img width="200px" src="imgs/hours.jpg" alt="hours"></td>
+                <td><a href="https://www.doubledtrailers.com/45-random-amazing-bizarre-horse-facts/">Hours</a></td>
+            </tr>
+            <tr>
+                <td><img width="200px" src="imgs/dog.jpg" alt="dog"></td>
+                <td><a href="https://devora.us/blogs/news/17-weird-facts-about-dogs-i-bet-you-didn-t-know">Dogs</a></td>
+            </tr>
+            <tr>
+                <td><img width="200px" src="imgs/cat.png" alt="cat"></td>
+                <td><a href="https://www.catster.com/lifestyle/creepy-cat-facts/">Cats</a></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
