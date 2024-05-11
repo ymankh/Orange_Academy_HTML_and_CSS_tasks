@@ -23,7 +23,7 @@ To get started with this repository, follow these steps:
 
 1. **Clone the Repository**: Clone this repository to your local machine using the following command:
    ```
-   git clone <repository_url>
+   git clone https://github.com/ymankh/Orange_Academy_HTML_and_CSS_tasks.git
    ```
 2. **Navigate to the Solutions**: Once the repository is cloned, navigate to the folder containing the HTML solution files.
 3. **Explore the Solutions**: Open the HTML files using a text editor or web browser to view my solutions to the tasks.
