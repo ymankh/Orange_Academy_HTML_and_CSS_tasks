@@ -1,0 +1,82 @@
+.orange-text {
+  color: #ffa500;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.pattern {
+  background-image: url(assets/pattern.png);
+  background-repeat: repeat;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.font-2 {
+  font-size: 1.2rem;
+}
+
+.width-4 {
+  width: 2rem;
+}
+.blue-text {
+  color: blue;
+}
+.text-green {
+  color: green;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+table {
+  border-spacing: 10px;
+}
+td {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 4px;
+  box-shadow: 3px 3px 3px gray;
+}
+
+.bg-wheat {
+  background-color: #fff7f0;
+}
+
+.box {
+  background-color: #fff;
+  padding: 10px;
+  width: 550px;
+}
+
+.text-purple {
+  color: #81047e;
+}
+
+.border {
+  border: 1px solid black;
+}
+
+.border-dashed {
+    border: 2px dashed black;
+  }
+
+
+.bg-yellow {
+  background-color: #fdfd96;
+}
+
+.bg-orange {
+  background-color: #fdca96;
+}
+
+.red-border {
+    border-color: red !important;
+}
+.v-space {
+    height: 20px;
+}
