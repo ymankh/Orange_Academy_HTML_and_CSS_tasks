@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+.logo-frame {
+  box-sizing: content-box;
+  border: 2px solid black;
+  padding: 200px;
+  display: inline-block;
+}
+
+.orange-logo {
+  background-color: #ff7900;
+  width: 100px;
+  height: 100px;
+  align-content: end;
+  color: white;
+  font-size: 25px;
+  padding-left: 5px;
+}
+
+.tm {
+  font-size: 10px;
+  position: relative;
+  display: inline-block;
+  bottom: 15px;
+  left: -7px;
+}
+
+.card {
+  border: 1px solid black;
+  width: 300px;
+  height: 550px;
+  position: relative;
+  float: left;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.card h3 {
+  font-size: 30px;
+  margin: 10px 10px;
+}
+
+.card-image {
+  width: inherit;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.card-footer {
+  background-color: black;
+  color: white;
+  font-size: 25px;
+  position: absolute;
+  bottom: 0px;
+  width: inherit;
+}
+
+.container {
+  margin: 10px;
+}
+
+.box-set {
+  border: 1.5px dashed black;
+  width: 180px;
+  flex-direction: row;
+  justify-content: space-between;
+  display: flex;
+  position: relative;
+}
+
+.box {
+  width: 40px;
+  height: 40px;
+  background-color: red;
+}
+
+.box-1 {
+  background-color: green;
+  position: static;
+  top: 5px;
+  left: 5px;
+}
+.box-2 {
+  background-color: green;
+  position: relative;
+  top: 5px;
+  left: 5px;
+}
+.box-3 {
+  background-color: green;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+
+.ad {
+  height: 600px;
+  width: 200px;
+  position: fixed;
+  right: 20px;
+  top: 20px;
+  background-image: url(assets/add.png);
+  background-color: #ff7900;
+}
