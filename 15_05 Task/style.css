@@ -39,7 +39,7 @@
 }
 .hero-text a:hover {
   background-color: rgb(70, 70, 70, 0.5);
-  transition: 0.5s;
+  transition: 0.1s;
 }
 .description-section {
   text-align: center;
@@ -54,10 +54,73 @@
 }
 
 .cards {
+  display: flex;
+  grid-template-columns: repeat(3, fr);
   background-color: #323232;
+  justify-content: center;
+  padding: 10px 20px;
 }
 
 .card {
-  height: 400px;
-  
+  /* height: 400px; */
+  width: 30%;
+  background-color: white;
+  border-radius: 3px;
+  text-align: center;
+  overflow: hidden;
+  margin: 0 10px;
+}
+
+.card img {
+  width: 100%;
+  border-top-right-radius: inherit;
+  border-top-left-radius: inherit;
+}
+.card h4 {
+  margin: 10px;
+  margin-top: 20px;
+}
+
+.card p {
+  margin: 10px;
+}
+.two-sides {
+  display: flex;
+}
+
+.side {
+  width: 50%;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.side h3 {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.side p {
+  margin-bottom: 20px;
+}
+.bg-primary {
+  background-color: #2590d5;
+  color: white;
+}
+
+.bg-dark {
+  color: white;
+  background-color: #333;
+}
+
+.footer {
+  background: #000;
+  text-align: center;
+  padding: 20px;
+  color: white;
+}
+.footer a {
+  text-decoration: none;
+}
+.text-color-primary {
+  color: #2590d5;
 }
