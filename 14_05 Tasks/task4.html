@@ -3,17 +3,38 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Image gride</title>
+    <title>Color Grid</title>
     <style>
-      .image-grid {
+      .container {
         display: grid;
-        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-rows: repeat(6, auto);
+        margin: auto;
+        width: 70%;
+      }
+      .gray {
+        height: 20px;
+        background-color: #808080;
+      }
+
+      .row-2 {
+        display: grid;
+        grid-template-columns: repeat(3, fr);
+      }
+      .blue-box {
+        background-color: #0000ff;
+        height: 80px;
+        grid-column: 1 /2;
       }
     </style>
   </head>
   <body>
-    <div class="image-grid">
-        <img src="" alt="">
+    <div class="container">
+      <div class="row-1"><div class="gray"></div></div>
+      <div class="row-2"><div class="blue-box"></div></div>
+      <div class="row-3"></div>
+      <div class="row-4"></div>
+      <div class="row-5"></div>
+      <div class="row-6"></div>
     </div>
   </body>
 </html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Grid</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 10px;
+            width: 80%;
+            max-width: 1200px;
+        }
+        .grid-container img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <img src="https://via.placeholder.com/300x200?text=Image1" alt="Mountain">
+        <img src="https://via.placeholder.com/300x200?text=Image2" alt="Lake">
+        <img src="https://via.placeholder.com/300x200?text=Image3" alt="Forest">
+        <img src="https://via.placeholder.com/300x200?text=Image4" alt="City">
+        <img src="https://via.placeholder.com/300x200?text=Image5" alt="Cherry Blossom">
+        <img src="https://via.placeholder.com/300x200?text=Image6" alt="Piano">
+        <img src="https://via.placeholder.com/300x200?text=Image7" alt="Violin">
+        <img src="https://via.placeholder.com/300x200?text=Image8" alt="Guitar">
+    </div>
+</body>
+</html>
